@@ -24,7 +24,7 @@ export class MeController {
                     "name": "Menna Hassan",
                     "stack": "NestJS"
                 },
-                timestamp: new Date().toISOString,
+                timestamp: new Date().toISOString(),
                 fact: fact
             }
         } catch (err) {
